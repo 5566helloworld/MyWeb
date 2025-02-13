@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/icon.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script_cn.js"></script>
+    <title>1899戰棋</title>
+</head>
+<body class="hero_cards_body">
+    <div id="top"></div>
+    <div class="banner">
+
+    </div>
+    <nav class="nav1">
+        <ul class="navlist">
+            <li>
+                <div class="logo">
+                    <a href="index_cn.html">
+                        <img src="image/icon_long2.png" height="25px">
+                    </a>
+                </div></li>
+            <li><a href="index_cn.html">主頁</a></li>
+            <li><a href="story_cn.html">故事</a>
+                <ul class="dropdown">
+                    <li><a href="story_cn.html#rg">格列英治帝國</a></li>
+                    <li><a href="story_cn.html#ge">哥利亞共和國</a></li>
+                    <li><a href="story_cn.html#sk">天使空中之國</a></li>
+                    <li><a href="story_cn.html#rsa">羅莎辛迪加聯盟</a></li>
+                </ul>
+            </li>
+            <li><a href="tutorial_cn.html">教學</a></li>
+            <li><a href="#top">卡牌</a>
+                <ul class="dropdown">
+                    <li><a href="#top">英雄卡</a></li>
+                    <li><a href="cards_soldier_cn.html">兵種卡</a></li>
+                    <li><a href="cards_treasure_cn.html">寶藏卡</a></li>
+                </ul>
+            </li>
+            <li style="float: right"><img src="image/language.png" style="width:40px">
+                <ul class="dropdown1">
+                    <li><a href="cards_hero.html">ENG</a></li>
+                    <li class="nav_active">中</li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="ribbon_set">
+        <div class="ribbon">
+            <span>章節:</span>
+        </div>
+        <div class="ribbon">
+            <span>英雄</span>
+        </div>
+        <div class="ribbon ribbon_unactived">
+            <a href="cards_soldier_cn.html"><span>兵種</span></a>
+        </div>
+        <div class="ribbon ribbon_unactived">
+            <a href="cards_treasure_cn.html"><span>寶藏</span></a>
+        </div>
+    </div>
+
+    <section class="hero_cards">
+        <div class="hero_cards_name">
+            <span class="hero_name" style="font-size:36px">惡魔使者—萬劫</span>
+        </div>
+        <div class="hero_cards_intro">
+            <div class="hero_cards_states">
+                <img src="image/atk.png">
+                <span class="atk">0</span>
+                <img src="image/hp.png">
+                <span class="hp">40</span>
+                <img src="image/moverange.png">
+                <span class="mr">3</span>
+                <img src="image/atkrange.png">
+                <span class="ar">1</span>
+                <img src="image/funding.png">
+                <span class="fund">500</span>
+            </div>
+            <br>
+            <div class="skills">
+                <div class="activeskill">
+                    <h5 style="color: red">主動技能</h5>
+                    <p><b style="color: red" class="A_skill_name">魔能爆發</b><span class="A_skill">
+                      : 此英雄此回合獲得移動距離+3，以及攻擊範圍+1，並且此英雄能不用消耗行動點數再次行動一次
+                      冷卻:3回合</span></p>
+                </div>
+                <div class="passiveskill">
+                    <h5 style="color: lime">被動技能</h5>
+                    <p><b style="color: lime" class="P_skill_name1">力量轉化</b><span class="P_skill1">
+                      : 回合結束時，此英雄生命值-3，但攻擊力+3</span></p>
+                    <p><b style="color: lime" class="P_skill_name2">生命汲取</b><span class="P_skill2">
+                      : 此英雄擊殺任意單位時，每擊殺一個單位，回復2點生命值(不能超過生命上限)</span></p>
+                </div>
+                <div class="leaderskill">
+                    <h5 style="color: #0066ff">領軍能力</h5>
+                    <p><b style="color: #0066ff" class="L_skill_name1">邪惡獻祭</b><span class="L_skill1">
+                      : 此單位招募任何士兵單位時所需資金翻倍，但所有士兵單位的初始攻擊力和生命值翻倍</span></p>
+                    <p><b style="color: #0066ff" class="L_skill_name2"></b><span class="L_skill2"></span></p>
+                </div>
+            </div>
+        </div>
+        <div class="hero_cards_img">
+            <img class="displayed_hero" src="image/calamity1.png">
+        </div>
+        <div class="select_bar">
+            <div class="slider2">
+                <div class="avatar"><img src="image/calamity2.png" class="avatar_img selected"></div>
+                <div class="avatar"><img src="image/angel2.png" class="avatar_img"></div>
+                <div class="avatar"><img src="image/corrad2.png" class="avatar_img"></div>
+                <div class="avatar"><img src="image/leiter2.png" class="avatar_img"></div>
+                <div class="avatar"><img src="image/andymea2.png" class="avatar_img"></div>
+                <div class="avatar"><img src="image/ekasia2.png" class="avatar_img"></div>
+                <div class="avatar"><img src="image/hulse2.png" class="avatar_img"></div>
+                <div class="avatar"><img src="image/falcon2.png" class="avatar_img"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="card_footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img class="footericon" src="image/icon_long.png">
+                    <br>
+                    <span>&copy;1899 War Chest Webpage.</span>
+                </div>
+                <div class="col-sm-4">
+                    <ul class="footermedia">
+                        <h4>社交媒體</h4>
+                        <li><a href="" target="_blank"><img src="image/FB.png" alt="facebook"></a></li>
+                        <li><a href="" target="_blank"><img src="image/IG.png" alt="instagram"></a></li>
+                        <li><a href="" target="_blank"><img src="image/YT.png" alt="youtube"></a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h4>聯繫我們!</h4>
+                    <p style="font-size: 12px">📝 address
+                    <br>📞 11451494
+                    <br>📨 1899WarChest@gmail.com</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
